@@ -1,0 +1,30 @@
+﻿# ============================================================
+# Snowflake Governed Agent Scope Lighthouse
+# Local / sensitive files excluded from source control
+# ============================================================
+
+# Snowflake authentication keys
+.secrets/
+*.pem
+*.key
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime / temporary files
+*.log
+*.tmp
